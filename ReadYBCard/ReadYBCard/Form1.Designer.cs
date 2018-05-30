@@ -62,7 +62,6 @@
             this.labelAccountNo.Size = new System.Drawing.Size(103, 30);
             this.labelAccountNo.TabIndex = 2;
             this.labelAccountNo.Text = "label1";
-            this.labelAccountNo.Click += new System.EventHandler(this.labelAccountNo_Click);
             // 
             // Form1
             // 

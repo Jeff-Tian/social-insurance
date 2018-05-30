@@ -17,3 +17,13 @@ C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\De
 C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.CoreCompileInputs.cache
 C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe
 C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.pdb
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csprojAssemblyReference.cache
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Form1.resources
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Properties.Resources.resources
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.GenerateResource.cache
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.pdb
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.config
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.pdb
