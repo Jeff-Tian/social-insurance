@@ -13,6 +13,8 @@ namespace ReadYBCard
 {
     public partial class Form1 : Form
     {
+        private DataTable dt = new DataTable();
+
         public Form1()
         {
             InitializeComponent();
@@ -44,10 +46,9 @@ namespace ReadYBCard
             YBLib.CardInfo info = YBLib.GetCardInfo;
             lblInfo.Text = "卡信息:" + info.CardInfoString();
             Console.WriteLine(info.CardInfoString());
-            labelAccountNo.Text = info.CardNo;
 
             //QueryReport(info.CardNo);
-            QueryReport("1084285");
+            QueryReport("F02545847");
         }
 
         public void QueryReport(String cardNumber)
@@ -58,9 +59,8 @@ namespace ReadYBCard
             {
                 conn.Open();
 
-                SqlCommand cmd = new SqlCommand("select * from v_report where KH='" + cardNumber + "'", conn);
-  
-                DataTable dt = new DataTable();
+                SqlCommand cmd = new SqlCommand("select * from JLEISDB2.dbo.v_report where KH = '" + cardNumber + "'", conn);
+                      
 
                 using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                 {
@@ -70,9 +70,11 @@ namespace ReadYBCard
                     {
                         dgv.AutoGenerateColumns = false;
                         dgv.DataSource = dt.AsDataView();
-
-                  
-                        labelAccountNo.Text = dt.Rows.Count.ToString();
+                        button1.Enabled = true;
+                    }
+                    else
+                    {
+                        button1.Enabled = false;
                     }
 
                 }
@@ -81,12 +83,29 @@ namespace ReadYBCard
             }catch(Exception ex)
             {
                 Console.WriteLine(ex.ToString());
-                labelAccountNo.Text = ex.ToString();
             }
             finally
             {
                 conn.Dispose();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //axJLPrintECG1.setPrintTemplateUrl(@"C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\JLCtrls\print.ini");
+
+            axJLPrintECG1.printEcgPaper(0);
+        }
+
+        private void dgv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            DataRow row = dt.Rows[e.RowIndex];
+            axJLPrintECG1.setEcgBinData(row["XDT"]);
+            axJLPrintECG1.setEcgData(row["XDT"].ToString());
+            axJLPrintECG1.setComment(row["ZD"].ToString(), row["BGRXM"].ToString());
+            axJLPrintECG1.setMeasureBinData(row["XDT"]);
+            axJLPrintECG1.setMeasureData(row["XDT"].ToString());
+            axJLPrintECG1.setPatientInfo(row["KH"].ToString(), row["BRXM"].ToString(), row["BRXB"].ToString().Equals("1") ? "男" : "女", "", (int)row["age"], "");
         }
     }
 }

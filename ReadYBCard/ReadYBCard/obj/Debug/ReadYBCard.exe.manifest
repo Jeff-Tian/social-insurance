@@ -42,14 +42,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="53208">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.JLPrintECGLib.dll" size="10240">
+      <assemblyIdentity name="AxInterop.JLPrintECGLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>gAoU0e+4UAXQHXB5xOW7ATpQc308Q+S+ZrBBVrvQ0aw=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.JLPrintECGLib.dll" size="10752">
+      <assemblyIdentity name="Interop.JLPrintECGLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Q2svtQ5zZFFj36mKQ1crGR8b7UUBd+7bhvRNulKBkpo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="55256">
       <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Nrl2B8TNUuZpGJrvVMrV12zrwZ45ofOaT9IUjBT7Qiw=</dsig:DigestValue>
+        <dsig:DigestValue>DNyPyphoCvCi5XXRPE65iJIdcs2rY24qwYsYRvvWLe0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
