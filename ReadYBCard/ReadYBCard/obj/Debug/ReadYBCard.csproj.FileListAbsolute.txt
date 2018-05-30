@@ -1,0 +1,19 @@
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.config
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.pdb
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csprojResolveAssemblyReference.cache
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Form1.resources
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Properties.Resources.resources
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.GenerateResource.Cache
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe
+D:\工作目录\NET项目\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.pdb
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.config
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.pdb
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csprojAssemblyReference.cache
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Form1.resources
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.Properties.Resources.resources
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.GenerateResource.cache
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.CoreCompileInputs.cache
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe
+C:\Users\Jeff\Documents\WeChat Files\jie-tian\Files\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.pdb
