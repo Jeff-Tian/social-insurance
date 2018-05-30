@@ -46,27 +46,35 @@ namespace ReadYBCard
             Console.WriteLine(info.CardInfoString());
             labelAccountNo.Text = info.CardNo;
 
-            QueryReport(info.CardNo);
+            //QueryReport(info.CardNo);
+            QueryReport("1084285");
         }
 
         public void QueryReport(String cardNumber)
         {
-            SqlConnection conn = new SqlConnection("user id=jlxdt;" +
-                                       "password=jlxdt;server=192.168.0.247\\SQL2005;" +
-                                       "Trusted_Connection=yes;" +
-                                       "database=JLEISDB2;" +
-                                       "connection timeout=30");
+            SqlConnection conn = new SqlConnection("Data Source=192.168.0.247\\SQL2005;Initial Catalog=JLEISDB2;Persist Security Info=True;User ID=jlxdt;Password=jlxdt");
 
             try
             {
                 conn.Open();
 
-                SqlCommand cmd = new SqlCommand("", conn);
-                SqlDataReader reader = cmd.ExecuteReader();
+                SqlCommand cmd = new SqlCommand("select * from v_report where KH='" + cardNumber + "'", conn);
+  
+                DataTable dt = new DataTable();
 
-                while (reader.Read())
+                using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                 {
-                    reader["xxx"].ToString();
+                    da.Fill(dt);
+
+                    if(dt != null && dt.Rows.Count > 0)
+                    {
+                        dgv.AutoGenerateColumns = false;
+                        dgv.DataSource = dt.AsDataView();
+
+                  
+                        labelAccountNo.Text = dt.Rows.Count.ToString();
+                    }
+
                 }
 
                 conn.Close();
