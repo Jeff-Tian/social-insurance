@@ -27,3 +27,7 @@ C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.pdb
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.config
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.pdb
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.manifest
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.application
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe.manifest
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.application

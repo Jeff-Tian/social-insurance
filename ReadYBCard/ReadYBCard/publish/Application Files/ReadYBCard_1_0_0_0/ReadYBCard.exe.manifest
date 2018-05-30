@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ReadYBCard.exe" version="1.0.0.0" publicKeyToken="9118ce36e55b24f9" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ReadYBCard.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+         若想要更改 Windows 用户帐户控制级别，请
+         将 requestedExecutionLevel 节点替换为下述某项。
+
+       <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+       <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+       <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+        若想要使用文件和注册表虚拟化以实现向后
+        兼容，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="12248">
+      <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>CNz5jQHCTgt9srQy2/z9DzG2bslPyt4quiIU0HOKJo4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ReadYBCard.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=JEFF-SURFACE-PR\Jeff" issuerKeyHash="7bea0da11ff9e172e32239c40a16eda429108bcc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Em5LzNqf1s42nDJ/18pAwHKB6tYhkyhASbWMlZXXoqU=</DigestValue></Reference></SignedInfo><SignatureValue>0pbUov987XJoV3Ik2Mi4dK1ruMoShC3MhQccZhmurcUnJuN4Tkhc++DRmHFEhDbZJm7CodvTPi18jv9dqTD3Wjk4cKxYLUqna2eBNDcC6Jckk2eckmkJ2l1W02NA8TxnZR4ACC+uBcN/foWYMjq9cLN7Tu7OvABUHFnxfS7JFVg=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0vfp8JukFN/pe029/W7kK/haZqQxemBjEdxBRLzvEoOhpyCnw0wNw9iGIJrSupZ17hEe5IpwopYGt/CmyeSp+RhxnEPT+9JHeBQYCD/YB4aav8CK/TQSPnNCxxYnnaptM7v/1lyj4r/HeNDB9Z1BGmGlc/8rZhOqT10L1XFLJ+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="a5a2d795958cb54940289321d6ea8172c040cad77f329c36ced69fdacc4b6e12" Description="" Url=""><as:assemblyIdentity name="ReadYBCard.exe" version="1.0.0.0" publicKeyToken="9118ce36e55b24f9" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=JEFF-SURFACE-PR\Jeff</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4NGsarjw0w7uHVOPJAqhWNOkOPmdI7SZDAqCzo3RzNg=</DigestValue></Reference></SignedInfo><SignatureValue>zAU+fPL7y20w7xe6z4cTp23YYxolHKLSSeV9eGynqVlX3vUR1AuDFK0HPZ3KgzcO3UXSJpWqC6hKnuQXI7fh57VBwpR5GMYuqSWwlqmo1RHfu1t9e2p6bGNfoQFjqRDEyH8bJ1j4RtS0LT+qSWPoeFqUsAiLTtoMr2UxM6g8rIg=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0vfp8JukFN/pe029/W7kK/haZqQxemBjEdxBRLzvEoOhpyCnw0wNw9iGIJrSupZ17hEe5IpwopYGt/CmyeSp+RhxnEPT+9JHeBQYCD/YB4aav8CK/TQSPnNCxxYnnaptM7v/1lyj4r/HeNDB9Z1BGmGlc/8rZhOqT10L1XFLJ+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB6TCCAVKgAwIBAgIQFjicQXN05p1Na273BziH4zANBgkqhkiG9w0BAQsFADAzMTEwLwYDVQQDHigASgBFAEYARgAtAFMAVQBSAEYAQQBDAEUALQBQAFIAXABKAGUAZgBmMB4XDTE4MDUzMDAzMzE1MFoXDTE5MDUzMDA5MzE1MFowMzExMC8GA1UEAx4oAEoARQBGAEYALQBTAFUAUgBGAEEAQwBFAC0AUABSAFwASgBlAGYAZjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA0vfp8JukFN/pe029/W7kK/haZqQxemBjEdxBRLzvEoOhpyCnw0wNw9iGIJrSupZ17hEe5IpwopYGt/CmyeSp+RhxnEPT+9JHeBQYCD/YB4aav8CK/TQSPnNCxxYnnaptM7v/1lyj4r/HeNDB9Z1BGmGlc/8rZhOqT10L1XFLJ+UCAwEAATANBgkqhkiG9w0BAQsFAAOBgQA/mKEEBB+j8E+P0VMfNN7jc4yreJhcNv/CdXaHBLS7pKxe30wP3DI7MP9xCkGa/TVnIYSo6kchyfjlvAMnChJ95zdrNooCRNQ1M5Scw0PHy9yw5cGXqzehu3J1a5j5Fdl9z0zeimd1J6oetrrlGdmio/JFPBlM7uXmSnrUEBsRbg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
