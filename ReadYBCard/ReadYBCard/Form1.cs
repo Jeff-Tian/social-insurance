@@ -64,6 +64,7 @@ namespace ReadYBCard
 
                 using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                 {
+                    dt = new DataTable();
                     da.Fill(dt);
 
                     if(dt != null && dt.Rows.Count > 0)
@@ -103,8 +104,8 @@ namespace ReadYBCard
             axJLPrintECG1.setEcgBinData(row["XDT"]);
             axJLPrintECG1.setEcgData(row["XDT"].ToString());
             axJLPrintECG1.setComment(row["ZD"].ToString(), row["BGRXM"].ToString());
-            axJLPrintECG1.setMeasureBinData(row["XDT"]);
-            axJLPrintECG1.setMeasureData(row["XDT"].ToString());
+            //axJLPrintECG1.setMeasureBinData(row["XDT"]);
+            //axJLPrintECG1.setMeasureData(row["XDT"].ToString());
             axJLPrintECG1.setPatientInfo(row["KH"].ToString(), row["BRXM"].ToString(), row["BRXB"].ToString().Equals("1") ? "男" : "女", "", (int)row["age"], "");
         }
     }
