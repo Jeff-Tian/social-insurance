@@ -50,7 +50,8 @@
             // 
             // btnReadCard
             // 
-            this.btnReadCard.Location = new System.Drawing.Point(43, 17);
+            this.btnReadCard.Font = new System.Drawing.Font("微软雅黑", 14.1F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btnReadCard.Location = new System.Drawing.Point(17, 22);
             this.btnReadCard.Margin = new System.Windows.Forms.Padding(8);
             this.btnReadCard.Name = "btnReadCard";
             this.btnReadCard.Size = new System.Drawing.Size(452, 130);
@@ -137,9 +138,10 @@
             // button1
             // 
             this.button1.Enabled = false;
-            this.button1.Location = new System.Drawing.Point(773, 26);
+            this.button1.Font = new System.Drawing.Font("微软雅黑", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.button1.Location = new System.Drawing.Point(526, 22);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(506, 121);
+            this.button1.Size = new System.Drawing.Size(506, 130);
             this.button1.TabIndex = 5;
             this.button1.Text = "打印";
             this.button1.UseVisualStyleBackColor = true;
