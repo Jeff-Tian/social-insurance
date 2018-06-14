@@ -63,6 +63,7 @@
             // 
             this.dgv.AllowUserToAddRows = false;
             this.dgv.AllowUserToDeleteRows = false;
+            this.dgv.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Print,
@@ -70,11 +71,12 @@
             this.BRXM,
             this.JYSJ,
             this.XDT});
-            this.dgv.Location = new System.Drawing.Point(28, 656);
+            this.dgv.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.dgv.Location = new System.Drawing.Point(0, 834);
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowTemplate.Height = 44;
-            this.dgv.Size = new System.Drawing.Size(1467, 685);
+            this.dgv.Size = new System.Drawing.Size(1729, 685);
             this.dgv.TabIndex = 3;
             this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
             // 
@@ -161,9 +163,11 @@
             this.Controls.Add(this.axJLPrintECG1);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.btnReadCard);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(8);
             this.Name = "Form1";
             this.Text = "报告打印";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jLEISDB2DataSetBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.jLEISDB2DataSet)).EndInit();
