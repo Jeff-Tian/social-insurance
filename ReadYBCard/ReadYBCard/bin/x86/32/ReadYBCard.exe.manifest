@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>s+G1lGQoxBUuLJf3Q1MqGyhbqdEVncsLbdXUMwoO+f0=</dsig:DigestValue>
+        <dsig:DigestValue>gBI8cpE82pOlTtmPXzukF+B87EpCY/6BaOwihV9EdqU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -61,19 +61,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Iye4Pxa9dv6I4OuBD9+MiVtaIrTLQoVIrIAwbBCzDoA=</dsig:DigestValue>
+        <dsig:DigestValue>Qn5KFLt1jneJ7dRESJQj5lrtqV/B4CMuJiU00cCtRwQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="17880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="18392">
       <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>lR+0Dn9zdZwTTmK448ICeAy/YP7Cvf7W/LxLSCkG+mY=</dsig:DigestValue>
+        <dsig:DigestValue>BU4OG0m+pd0/i8jVH9OLj6ynhHtE5VqmQmEN+O04OQI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

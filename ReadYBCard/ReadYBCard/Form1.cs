@@ -28,7 +28,15 @@ namespace ReadYBCard
         {
             try
             {
-                RedCard(CardState.IC_Card);
+                string cardNumber = this.txtCardNumber.Text;
+                if (cardNumber != "")
+                {
+                    QueryReport(cardNumber);
+                }
+                else
+                {
+                    RedCard(CardState.IC_Card);
+                }
             }
             catch (Exception err)
             {
@@ -152,6 +160,8 @@ namespace ReadYBCard
             this.btnReadCard.Left = (this.Width - this.btnReadCard.Width) / 2;
             this.button1.Left = (this.Width - this.button1.Width) / 2;
             this.button2.Left = (this.Width - this.button2.Width) / 2;
+            this.lblCardNumber.Left = this.btnReadCard.Left;
+            this.txtCardNumber.Left = this.btnReadCard.Right - this.txtCardNumber.Width;
         }
 
         private void button2_Click(object sender, EventArgs e)
