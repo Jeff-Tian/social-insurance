@@ -1,0 +1,386 @@
+00b*** 正常心电图 Normal ECG
+001*** 窦性心律 Sinus
+002*** 房性心律失常 Atrial arrhythmia
+003*** 交界性心律 Junctional rhythm
+004*** 室性心律 Ventricular rhythm
+005*** 传导阻滞 Block
+006*** 心房肥大 Atrial hypertrophy
+007*** 心室肥大 Ventricular hypertrophy
+008*** 心肌梗塞 MI
+009*** ST-T改变 ST-T changes
+00a*** 其它 Other
+0b1*** 正常心电图 Normal ECG
+011*** 窦性心律 Sinus
+012*** 窦性心律紊乱 Sinus disorder
+013*** 窦性心动过速 Sinus tachycardia
+014*** 窦性心动过缓 Sinus bradycardia
+021*** 房性心律 Atrial rhythm
+022*** 房性心律紊乱 Atrial arrhythmia
+023*** 房性心动过速 Atrial tachycardia
+024*** 房扑 AFL
+025*** 房颤 AF
+026*** 房性逸博 Atrial Itsuhiro
+027*** 心房传导障碍 Atrial conduction disturbances
+031*** 交界性心律 Junctional rhythm
+032*** 交界性心律紊乱 Junctional rhythm disorder
+033*** 交界性心动过速 Junctional tachycardia
+034*** 交界性逸博 Borderline Itsuhiro
+041*** 室性心律 Ventricular rhythm
+042*** 室性心律紊乱 Ventricular arrhythmia
+043*** 室性心动过速 Tachycardia
+044*** 室扑 Room flutter
+045*** 室颤 VF
+046*** 室性逸博 Ventricular Itsuhiro
+051*** 窦房传导阻滞 Sinoatrial block
+052*** 房室传导阻滞 AVB
+053*** 束支传导阻滞及心室内传导阻滞 Bundle branch block and intraventricular conduction block
+061*** 心房肥大 Atrial hypertrophy
+062*** 左心房肥大 Left atrial hypertrophy
+063*** 右心房肥大 Right atrial hypertrophy
+064*** 双心房肥大 Pairs of atrial hypertrophy
+071*** 心室肥大 Ventricular hypertrophy
+072*** 左心室肥大 LVH
+073*** 右心室肥大 Right ventricular hypertrophy
+074*** 双心室肥大 Biventricular hypertrophy
+081*** 心肌梗塞 MI
+082*** 前壁心肌梗塞 Anterior myocardial infarction
+083*** 广泛前壁心肌梗塞 Extensive anterior wall myocardial infarction
+084*** 前间壁心肌梗塞 Makabe myocardial infarction before the
+085*** 前侧壁心肌梗塞 Anterior and lateral myocardial infarction
+086*** 间隔心肌梗塞 Interval myocardial infarction
+087*** 下壁心肌梗塞 Inferior wall myocardial infarction
+088*** 下侧壁心肌梗塞 Under the wall myocardial infarction
+089*** 下后壁心肌梗塞 Inferior myocardial infarction
+08a*** 急性侧壁心肌梗塞 Acute lateral wall myocardial infarction
+08b*** 急性高侧壁心肌梗塞 Acute high lateral wall myocardial infarction
+08c*** 急性后壁心肌梗塞 Acute inferior myocardial infarction
+08d*** 心内膜下心肌梗塞 Subendocardial myocardial infarction
+091*** ST－T改变 ST-T changes
+092*** ST段抬高 ST-segment elevation
+093*** ST段下移 ST segment depression
+094*** T波改变 T wave changes
+095*** ST－T改变，洋地黄作用 ST-T changes, the role of digitalis
+096*** ST－T改变，电解质紊乱 ST-T changes, electrolyte disturbance
+097*** 继发性ST－T改变 Secondary ST-T changes
+098*** 非特异性ST－T改变 Non-specific ST-T changes
+0a1*** 电极错误 Electrode Error0a2*** 低电压 Low Voltage
+0a3*** 电轴偏移 Electrical axis deviation
+0a4*** 心脏转位 Heart translocation
+0a5*** P－R间期异常 P-R interval abnormalities
+0a6*** W－P－W错误 W-P-W error
+0a7*** Q－T间期异常 Q-T interval abnormalities
+0a8*** 起搏心律 Pacing rhythmb
+
+11283 正常心电图 Normal ECGb
+12281 QRS波群正常 normal QRS wave groupb
+13282 QRS波群正常范围 QRS wave group within the normal range
+111002 窦性心律 Sinus112001 正常窦性心律 Normal sinus rhythm
+113003 心律未定，可能为窦性心律 Undetermined rhythm, sinus rhythm may be
+115006 心律未定，可能为窦性心律不齐 Rhythm undetermined, which may be sinus arrhythmia
+11c023 心律未定，可能为室性心动过速 Undetermined rhythm, ventricular tachycardia may
+11f043 心律未定，频发房早伴传出阻滞 Undetermined rhythm, frequent atrial premature with outgoing block
+121005 窦性心律不齐 Sinus arrhythmia
+122300 窦性早搏 Premature sinus
+123301 窦房结内游走 Walk inside the sinus node
+124302 窦房结内游走心律 Sinus rhythm within a walk
+131007 窦性心动过速 Sinus tachycardia
+141008 窦性心动过缓 Sinus bradycardia
+142009 窦性心动极度过缓 Sinus tachycardia too slow
+143027 窦性心动极度过缓，II度窦房阻滞 Sinus tachycardia too slow, II-degree sinoatrial block
+144010 窦性心动极度过缓，可能为完全性房室传导阻滞 Sinus tachycardia too slow, may be complete atrioventricular block
+145303 窦性心动过缓伴不齐 Sinus bradycardia with arrhythmia
+146304 窦性停搏 Sinus Arrest
+147039 窦性停搏，可能为阻滞性房早 Sinus arrest, which may be block of atrial premature
+148040 窦性停搏，可能为窦房阻滞 Sinus arrest, sinoatrial block may be
+149305 窦房传导阻滞 Sinoatrial block
+
+211026 房性异位心律 Ectopic atrial rhythm
+212308 冠状窦心律 Coronary sinus rhythm
+213019 心房下部心律 Lower atrial rhythm
+214309 左房心律 Left atrial rhythm
+221081 房性早搏 Atrial premature beats
+222310 偶发房性早搏 Occasional atrial premature beats
+223311 频发房性早搏 Frequent atrial premature beats
+224312 房早未下传 As early as the next room did not pass
+225082 房早伴差传 Atrial premature with Missions
+226313 房早连发 Atrial premature repeating
+227055 房早二联律 Atrial premature bigeminy
+228314 房早三联律 Atrial premature trigeminy
+229315 多源房早 Multi-source atrial premature
+22a316 多形性房早 Pleomorphic atrial premature
+22b317 插入房早 Insert the atrial premature
+22c318 房性并行心律 Atrial parasystole
+22d319 紊乱性心房律 Disorder atrial Law
+231320 阵发性房性心动过速 Paroxysmal atrial tachycardia
+232321 短阵房性心动过速 Burst atrial tachycardia
+233322 非阵发性房性心动过速 Non-paroxysmal atrial tachycardia
+234018 房性心动过速 Atrial tachycardia
+241052 心房扑动 Atrial flutter
+242047 房扑呈1:1房室传导 Atrial flutter was 1:1 atrioventricular conduction
+243048 房扑呈2:1房室传导 Atrial flutter was 2:1 atrioventricular conduction
+244049 房扑呈3:1房室传导 Atrial flutter was 3:1 atrioventricular conduction
+245050 房扑呈4:1房室传导 Atrial flutter was 4:1 atrioventricular conduction
+246051 房扑伴不规则房室传导 Atrial flutter with irregular atrioventricular conduction
+247053 房扑可能 Atrial flutter may be
+248054 房扑2:1传导可能 Atrial flutter 2:1 conduction may be
+251045 心房颤动 Fibrillation
+252323 房颤伴隐匿性传导 Atrial fibrillation with concealed conduction
+253324 房颤伴快速心室率 Atrial fibrillation with rapid ventricular rate in
+254325 房颤伴慢速心室率 Atrial fibrillation with slow ventricular rate in
+255326 房颤伴规则心室率 Ventricular rate in atrial fibrillation with the rules
+256046 房颤可能 Atrial fibrillation may be
+261327 房性逸搏 Atrial escape stroke
+262328 房性逸搏心律 Atrial escape rhythm
+271329 窦心室传导 Sinus ventricular conduction
+
+311330 交界性异位心律 Junctional ectopic rhythm
+321331 交界性早搏 Junctional premature beats
+322073 室上性早搏 Supraventricular premature beats
+323070 连发性室上性早搏 Bursts of ventricular premature beats on
+324083 室上性早搏二联律 Supraventricular premature beat bigeminy
+325085 室上性早搏三联律 Supraventricular premature beats trigeminy
+331017 交界性心动过速 Junctional tachycardia
+332332 阵发性交界性心动过速 Paroxysmal junctional tachycardia
+333025 加速性交界性心动过速 Accelerated junctional tachycardia
+334016 室上性心动过速 Supraventricular tachycardia
+341333 交界性逸搏 Junctional escape stroke
+342056 交界性逸搏可能 Junctional escape stroke may be
+343334 交界性逸搏心律 Junctional escape rhythm
+
+411341 室性异位心律 Ventricular ectopic rhythm
+421057 室性早搏 Premature ventricular
+422058 偶发室性早搏 Occasional premature ventricular contractions
+423059 频发室性早搏 Frequent premature ventricular beats
+424342 室早连发 VPB repeating
+425071 室早二联律 Room as early as bigeminy
+426072 室早三联律 VPB trigeminy
+427343 多源室早 Multi-source VPB
+428067 多型室早 Multi-type VPB
+429065 插入室早 Insert VPB
+42a021 室性并行心律 Ventricular parasystole
+42b344 室性并行心律伴不规则传出阻滞 Ventricular parasystole with irregular block outgoing
+42c022 加速性室性并行心律 Accelerated ventricular parasystole
+42d060 可能为室性早搏 May be premature ventricular contractions
+42e061 可能为多源室早 Multi-source VPB may be
+42f062 室早伴完全性代偿间期 VPB with complete compensatory interval
+42g063 室早伴不完全性代偿间期 VPB with incomplete compensatory interval
+42h064 室早伴束支阻滞 VPB with bundle branch block
+42i068 折返性室早 Reentrant ventricular premature
+431345 室性心动过速 Tachycardia
+432346 阵发性室性心动过速 Paroxysmal ventricular tachycardia
+433347 加速性室性自主心律 Accelerated idioventricular rhythm
+434348 多源性室速 Multi-induced ventricular tachycardia
+435349 尖端扭转型室速 Torsades de pointes ventricular tachycardia
+441350 心室扑动 Ventricular flutter
+451351 心室颤动 Ventricular fibrillation
+461066 室性逸搏 Ventricular escape
+462352 室性逸搏心律 Ventricular escape rhythm
+
+511306 II度I型窦房传导阻滞 II degree-I sinoatrial block
+512307 II度II型窦房传导阻滞 II Degree-II sinoatrial block
+513038 窦房阻滞伴2:1传导 Sinoatrial block with 2:1 conduction
+521028 I度房室传导阻滞 I-degree atrioventricular block
+522031 II度I型房室传导阻滞 II degree AV block type I
+523032 II度I型房室传导阻滞可能 II degree AV block type I may
+524033 II度II型房室传导阻滞 II degree AV block type II
+525335 II度II型房室传导阻滞伴不规则房室传导 II degree AV block type II with irregular atrioventricular conduction
+526034 II度II型房室传导阻滞伴2:1房室传导 II degree AV block type II with 2:1 atrioventricular conduction
+527035 II度II型房室传导阻滞伴3:1房室传导 II degree AV block type II with 3:1 atrioventricular conduction
+528336 高度房室传导阻滞 High degree atrioventricular block
+529037 II度房室传导阻滞 II degree atrioventricular block
+52a337 III度房室传导阻滞 III-degree atrioventricular block
+52b338 III度房室传导阻滞---心室由交界处心律控制 III-degree atrioventricular block---Control of ventricular rhythm by the junction of
+52c339 III度房室传导阻滞---心室由心室自主心律控制 III degree atrioventricular block --- ventricle by ventricular rhythm control of their own
+52d340 干扰性房室分离 Separation of interfering with atrioventricular
+531110 完全性左束支传导阻滞 Complete left bundle branch block
+532111 非典型完全性左束支传导阻滞 Atypical complete left bundle branch block
+533353 完全性左束支传导阻滞合并电轴左偏 Complete left bundle branch block combined electrical axis left side
+534112 不完全性左束支传导阻滞 Incomplete left bundle branch block
+535114 完全性右束支传导阻滞 Complete right bundle branch block
+536115 非典型完全性右束支传导阻滞 Atypical complete right bundle branch block
+537354 完全性右束支传导阻滞合并左前分支阻滞 Complete right bundle branch block the merger left anterior branch block
+538355 完全性右束支传导阻滞合并左后分支阻滞 Complete right bundle branch block left posterior branch block merger
+539116 不完全性右束支传导阻滞 Incomplete right bundle branch block
+53a356 不完全性右束支传导阻滞合并左前分支阻滞 Incomplete right bundle branch block the merger left anterior branch block
+53b357 不完全性右束支传导阻滞合并左后分支阻滞 Incomplete right bundle branch block left posterior branch block merger
+53c131 RSR'综合症 RSR 'syndrome
+53d280 V1 导联呈QRS'，正常变异 V1 lead showed QRS ', the normal variation
+53e119 左前分支阻滞 Left anterior branch block
+53f120 左前分支阻滞可能 Left anterior branch block may be
+53g122 左后分支传导阻滞 Left posterior hemiblock
+53h127 左后分支传导阻滞可能 Left posterior hemiblock may be
+53i121 QRS电轴左偏， 不完全左前分支阻滞 QRS electrical axis from left side, incomplete left anterior branch block
+53j125 双束支阻滞可能 Double-bundle branch block may be
+53k126 双束支阻滞 Double-bundle branch block
+53l117 心室内传导阻滞 Intraventricularblock
+53m041 间歇性室内传导阻滞 Intermittent intraventricular conduction block
+
+611358 心房肥大 Atrial hypertrophy
+621091 左心房肥大 Left atrial hypertrophy
+622092 左心房肥大可能 Hypertrophy of the left atrium may
+623093 左房电压增大，正常变异 Left atrial voltage is increased, the normal variation
+631095 右心房肥大 Right atrial hypertrophy
+632096 右心房肥大可能 Right atrial hypertrophy may be
+633094 右房电压增大，正常变异 Right atrial voltage increases, the normal variation
+641098 双心房肥大 Pairs of atrial hypertrophy
+642099 双心房肥大可能 Double atrial hypertrophy may
+
+711359 心室肥大 Ventricular hypertrophy
+721150 左室肥大 Left ventricular hypertrophy
+722146 左室肥大伴ST-T改变 Left ventricular hypertrophy with ST-T changes
+723147 左室肥大伴QRS增宽和ST-T改变 Widened QRS with left ventricular hypertrophy and ST-T changes
+724360 左室肥大可能 Left ventricular hypertrophy may be
+725153 左室高电压 Left ventricular high-voltage
+726151 左室高电压，提示左室肥大 Left ventricular high-voltage, suggesting left ventricular hypertrophy
+727152 左室高电压，正常变异可能 Left ventricular high voltage, the normal variation may be
+728145 左室肥大伴QRS增宽 With left ventricular hypertrophy with QRS widened
+729148 左室肥大伴ST-T改变 Left ventricular hypertrophy with ST-T changes
+72a149 左室肥大伴QRS增宽 With left ventricular hypertrophy with QRS widened
+731160 右室肥大 Right ventricular hypertrophy
+732156 右室肥大伴ST-T改变 Right ventricular hypertrophy with ST-T changes
+733157 右室肥大伴QRS增宽和ST-T改变 Right ventricular hypertrophy with QRS wider and ST-T changes
+734161 右室肥大可能 Right ventricular hypertrophy may be
+735155 右室肥大伴QRS增宽 Right ventricular hypertrophy with QRS widened
+736158 右室肥大伴ST-T改变 Right ventricular hypertrophy with ST-T changes
+737159 右室肥大伴QRS增宽 Right ventricular hypertrophy with QRS widened
+738162 右室肥大可疑 Suspected right ventricular hypertrophy
+741142 双室肥大 Biventricular hypertrophy
+742135 双室肥大伴QRS增宽 Biventricular hypertrophy with QRS widened
+743136 双室肥大伴ST-T改变 Biventricular hypertrophy with ST-T changes
+744137 双室肥大伴QRS增宽及右室负荷过重 Widened QRS with biventricular hypertrophy and right ventricular overload
+745138 双室肥大伴ST-T改变及左室负荷过重 Biventricular hypertrophy with ST-T changes and left ventricular overload
+746139 双室肥大伴QRS增宽和ST-T改变 Biventricular hypertrophy with widened QRS and ST-T changes
+747140 双室肥大伴ST-T改变 Biventricular hypertrophy with ST-T changes
+748141 双室肥大伴QRS增宽 Biventricular hypertrophy with QRS widened
+749143 双室肥大可能 Biventricular hypertrophy may be
+74a144 双室肥大待排 Biventricular hypertrophy to be ranked
+
+811201 急性前壁心肌梗塞 Acute anterior myocardial infarction
+821202 亚急性前壁心肌梗塞 Sub-acute anterior myocardial infarction
+822203 陈旧性前壁心肌梗塞 Old anterior myocardial infarction
+823204 亚急性前壁心肌梗塞可能 Sub-acute anterior myocardial infarction may be
+824205 陈旧性前壁心肌梗塞可能 Old anterior myocardial infarction may be
+825206 前壁心肌梗塞待排 Anterior myocardial infarction to be ranked
+826207 伴后壁扩张 Associated with posterior wall of the expansion
+827208 伴可疑后壁扩张 With suspected posterior wall of the expansion
+831221 急性广泛前壁心肌梗塞 Acute extensive anterior wall myocardial infarction
+832222 亚急性广泛前壁心肌梗塞 Sub-acute extensive anterior wall myocardial infarction
+833223 陈旧性广泛前壁心肌梗塞 Extensive anterior wall myocardial infarction old
+834224 陈旧性下尖壁心肌梗塞 Under the old tip-wall myocardial infarction
+835225 伴可疑后壁扩张 With suspected posterior wall of the expansion
+841191 急性前间壁心肌梗塞 Makabe acute anterior myocardial infarction
+842192 亚急性前间壁心肌梗塞 Sub-acute myocardial infarction before the partitions
+843193 陈旧性前间壁心肌梗塞 With old myocardial infarction before the Makabe
+844194 亚急性前间壁心肌梗塞可能 Sub-acute myocardial infarction before the partitions may be
+845195 陈旧性前间壁心肌梗塞可能 With old myocardial infarction may be pre-Makabe
+846196 前间壁心肌梗塞待排 Myocardial infarction before the partitions to be ranked
+851217 急性前侧壁心肌梗塞 Acute anterior wall myocardial infarction
+852218 亚急性前侧壁心肌梗塞 Sub-acute anterior wall myocardial infarction
+853219 陈旧性前侧壁心肌梗塞 Old anterior and lateral myocardial infarction
+861361 急性间隔心肌梗塞 Acute myocardial infarction interval
+862362 亚急性间隔心肌梗塞 Subacute myocardial infarction interval
+863363 陈旧性间隔心肌梗塞 Old interval myocardial infarction
+871171 急性下壁心肌梗塞 Acute inferior wall myocardial infarction
+872172 亚急性下壁心肌梗塞 Sub-acute inferior wall myocardial infarction
+873173 陈旧性下壁心肌梗塞 Old inferior wall myocardial infarction
+874174 亚急性下壁心肌梗塞可能 Sub-acute inferior myocardial infarction may be
+875175 陈旧性下壁心肌梗塞可能 Old inferior wall myocardial infarction may be
+876176 下壁心肌梗塞待排 To be ranked inferior wall myocardial infarction
+877177 可能伴侧壁心肌梗塞 May be associated with lateral wall myocardial infarction
+881364 急性下侧壁心肌梗塞 Acute inferior wall myocardial infarction
+882365 亚急性下侧壁心肌梗塞 Sub-acute wall myocardial infarction
+883366 陈旧性下侧壁心肌梗塞 Under the old wall myocardial infarction
+891181 急性下后壁心肌梗塞 Acute inferior myocardial infarction
+892182 亚急性下后壁心肌梗塞 Subacute inferior myocardial infarction
+893183 陈旧性下后壁心肌梗塞 Old inferior myocardial infarction
+894184 亚急性下后壁心肌梗塞可能 Subacute inferior myocardial infarction may be
+895185 下后壁心肌梗塞待排 Inferior myocardial infarction to be ranked
+896186 后壁心肌梗塞 Posterior wall myocardial infarction
+897187 单纯后壁心肌梗塞 Simple posterior wall myocardial infarction
+898188 后壁心肌梗塞待排 Posterior wall myocardial infarction to be ranked
+899189 伴后壁扩展 With posterior extension
+89a190 伴心肌梗塞周边性阻滞 Peripheral block with myocardial infarction
+8a1211 急性侧壁心肌梗塞 Acute lateral wall myocardial infarction
+8a2212 亚急性侧壁心肌梗塞 Subacute side wall myocardial infarction
+8a3213 陈旧性侧壁心肌梗塞 Old wall myocardial infarction
+8a4214 亚急性侧壁心肌梗塞可能 Sub-acute lateral myocardial infarction may be
+8a5215 陈旧性侧壁心肌梗塞可能 Old wall myocardial infarction may be
+8a6216 侧壁心肌梗塞待排 Lateral wall myocardial infarction to be ranked
+8b1367 急性高侧壁心肌梗塞 Acute high lateral wall myocardial infarction
+8b2368 亚急性高侧壁心肌梗塞 Sub-acute high lateral wall myocardial infarction
+8b3369 陈旧性高侧壁心肌梗塞 Old high lateral myocardial infarction
+8c1370 急性后壁心肌梗塞 Acute inferior myocardial infarction
+8d1373 急性心内膜下心肌梗塞 Acute subendocardial myocardial infarction
+8d2374 亚急性心内膜下心肌梗塞 Sub-acute subendocardial myocardial infarction
+8d3375 陈旧性心内膜下心肌梗塞 Old subendocardial myocardial infarction
+
+911376 ST-T改变 ST-T changes
+921258 ST段改变 ST segment changes
+922228 ST段抬高 ST-segment elevation
+923233 ST段抬高，急性前壁心肌缺血 ST-segment elevation, acute myocardial ischemia
+924231 ST段抬高，急性下壁心肌缺血 ST-segment elevation acute inferior wall myocardial ischemia
+925232 ST段抬高，急性侧壁心肌缺血 ST-segment elevation acute lateral wall myocardial ischemia
+926229 ST段抬高，急性前侧壁心肌缺血 ST-segment elevation, acute anterior wall myocardial ischemia
+927230 ST段抬高，急性下尖壁心肌缺血 ST-segment elevation, acute inferior wall myocardial ischemia tip
+928377 广泛ST段抬高 Wide range of ST-segment elevation
+929272 广泛ST段抬高，急性心包炎可能 Wide range of ST-segment elevation, acute pericarditis may be
+92a378 广泛ST段抬高，亚急性心包炎可能 Wide range of ST-segment elevation, sub-acute pericarditis may be
+92b379 ST段抬高，室壁瘤可能 ST-segment elevation, ventricular aneurysm may be
+92c380 J点上移 J-point on the Move
+92d381 J点上移，早期复极综合症 J-point on the Move, the early repolarization syndrome
+92e382 ST段抬高，早期复极综合症 ST-segment elevation, early repolarization syndrome
+931257 ST下移 ST segment depression
+932259 ST段下移，心肌损害 ST segment depression, myocardial damage
+933263 ST段下移，前壁心肌损害 ST segment depression, anterior wall myocardial damage
+934261 ST段下移，下壁心肌损害 ST segment depression, inferior wall myocardial damage
+935262 ST段下移，侧壁心肌损害 ST segment depression, wall myocardial damage
+936263 ST段下移，心肌受损 ST segment depression, myocardial damage
+937264 ST段下移，前侧壁心肌受损 ST segment depression, anterior and lateral myocardial damage
+938265 ST段下移，下尖壁心肌受损 ST segment depression, the next tip wall myocardial damage
+941275 T波改变 T wave changes942383 T波低平 T-wave low-lying
+943384 T波低平，非特异性改变 T-wave low-lying, non-specific changes in
+944235 T波倒置 T-wave inversion
+945243 T波倒置，前壁心肌缺血 T-wave inversion, anterior ischemic
+946242 T波倒置，侧壁心肌缺血 T-wave inversion, lateral wall myocardial ischemia
+947241 T波倒置，下壁心肌缺血 T-wave inversion, inferior wall myocardial ischemia
+948236 T波倒置，后侧壁心肌缺血 T-wave inversion, after the wall myocardial ischemia
+949237 T波倒置，下后侧壁心肌缺血 T-wave inversion, the next wall after myocardial ischemia
+94a238 T波倒置，下后壁心肌缺血 T-wave inversion, the next posterior myocardial ischemia
+94b239 T波倒置，后壁心肌缺血 T-wave inversion, the posterior wall myocardial ischemia
+94c240 T波倒置，后壁心肌缺血可能 T-wave inversion, the posterior wall myocardial ischemia may be
+94d244 T波倒置，前侧壁心肌缺血 T-wave inversion, anterior and lateral myocardial ischemia
+94e245 T波倒置，下尖壁心肌缺血 T-wave inversion, the next sharp wall myocardial ischemia
+951271 ST-T改变，洋地黄作用可能 ST-T changes, digitalis-like effects may
+961273 ST-T改变，电解质紊乱可能 ST-T changes, may be electrolyte imbalance
+962385 ST-T改变，高钾性可能 ST-T changes, high-K nature of possible
+971386 继发性ST-T改变 Secondary ST-T changes
+981274 非特异性ST-T改变 Non-specific ST-T changes
+
+a11089 肢体导联倒置 Limb lead reversal
+a21387 低电压 Low Voltage
+a24402 低电压趋势 Low-voltage trend
+a22109 肢体导联低电压 Low voltage limb leads
+a23388 胸导联低电压 Precordial leads low voltage
+a25401 U波改变 U-wave changes
+a31124 QRS电轴左偏 QRS electrical axis left side
+a32389 QRS电轴极度左偏 QRS electrical axis of extreme left-side
+a33123 QRS电轴右偏 QRS electrical axis shifted to the right
+a34390 QRS电轴极度右偏 QRS electrical axis is extremely skewed to the right
+a41128 逆钟向转位 Against the clock to the translocation
+a42129 逆钟向转位，后壁心肌梗塞待排 Against the clock to the translocation, the posterior wall myocardial infarction to be ranked
+a43130 顺钟向转位 Clockwise transposition
+a51090 右位心 Dextrocardia
+a52029 P-R间期缩短 P-R interval shortening
+a53030 P-R间期不定 P-R interval variable
+a61106 短P-R正常QRS综合症 Short P-R and normal QRS syndrome
+a62102 W-P-W A型 W-P-W A-type
+a63103 W-P-W B型 W-P-W B-type
+a64104 W-P-W W-P-W
+a65105 W-P-W待排 W-P-W to be row
+a71284 Q-T延长 Extended Q-T
+a81087 起搏心律 Pacing rhythm
+a82391 起搏心律，起搏器感知及带动功能良好 Pacing rhythm, perception, and led a well-functioning pacemaker
+
+b11283 正常心电图       Normal ECG
+b12281 QRS波群正常      normal QRS wave group
+b13282 QRS波群正常范围  QRS wave group within the normal range
