@@ -49,41 +49,29 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>gAoU0e+4UAXQHXB5xOW7ATpQc308Q+S+ZrBBVrvQ0aw=</dsig:DigestValue>
+        <dsig:DigestValue>NdVzzWHiegBcMAhf3D9iCR8tSVJRmFaLyOjadSvcinc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.JLPrintECGLib.dll" size="10752">
-      <assemblyIdentity name="Interop.JLPrintECGLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Q2svtQ5zZFFj36mKQ1crGR8b7UUBd+7bhvRNulKBkpo=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="17880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="18392">
       <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>bmS5VBcHkA280tbPldMjc+4EqSFcrKimkXa9zHHrRnE=</dsig:DigestValue>
+        <dsig:DigestValue>hHGg3TEtJknNvAkwc/hjWRMo7ITPscKkSKI4kxAdioY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ReadYBCard.exe.config" size="593">
+  <file name="ReadYBCard.exe.config" size="581">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4oCjIsQlzepyywQRKnvM0Rw7CIGpxHf3/7tT3Ue+x1U=</dsig:DigestValue>
+      <dsig:DigestValue>Fir2HOE7FNiscaWgGJPlDRY/WoIG/STTwMgovgo2JKQ=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

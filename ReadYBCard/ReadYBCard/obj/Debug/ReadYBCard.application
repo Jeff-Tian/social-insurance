@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="ReadYBCard.exe.manifest" size="4748">
+    <dependentAssembly dependencyType="install" codebase="ReadYBCard.exe.manifest" size="4088">
       <assemblyIdentity name="ReadYBCard.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>16jBOofin43mqc+ruJ0xKy8GERp69rqQ8DkNUrAsReQ=</dsig:DigestValue>
+        <dsig:DigestValue>io8WIP31zKQqfGE6efjCmEDuvNSml3WlKTZKJenLct4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

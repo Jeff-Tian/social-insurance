@@ -54,6 +54,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.JLPrintECGLib.dll" size="10752">
+      <assemblyIdentity name="Interop.JLPrintECGLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zzyMafKfCSSlryEN7TGGU0hvnwtNlLYZOM3rLnRKkJ4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ReadYBCard.exe" size="18392">
       <assemblyIdentity name="ReadYBCard" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -61,17 +73,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>hHGg3TEtJknNvAkwc/hjWRMo7ITPscKkSKI4kxAdioY=</dsig:DigestValue>
+        <dsig:DigestValue>+B4q6uwoCMh8tkxkawpfXaWb88NslLqDfBsw5KqwWFQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ReadYBCard.exe.config" size="581">
+  <file name="ReadYBCard.exe.config" size="593">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>Fir2HOE7FNiscaWgGJPlDRY/WoIG/STTwMgovgo2JKQ=</dsig:DigestValue>
+      <dsig:DigestValue>4oCjIsQlzepyywQRKnvM0Rw7CIGpxHf3/7tT3Ue+x1U=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

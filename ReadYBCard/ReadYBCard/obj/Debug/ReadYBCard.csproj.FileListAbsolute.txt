@@ -31,9 +31,6 @@ C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.exe.ma
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\ReadYBCard.application
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.exe.manifest
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.application
-C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\Interop.JLPrintECGLib.dll
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\AxInterop.JLPrintECGLib.dll
-C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\Interop.JLPrintECGLib.dll
-C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\AxInterop.JLPrintECGLib.dll
-C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.ResolveComReference.cache
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\bin\Debug\print.ini
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\Debug\ReadYBCard.csproj.CopyComplete
