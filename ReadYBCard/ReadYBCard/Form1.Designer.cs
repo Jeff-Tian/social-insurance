@@ -72,7 +72,7 @@
             this.JYSJ});
             this.dgv.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.dgv.Location = new System.Drawing.Point(0, 176);
-            this.dgv.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.dgv.Margin = new System.Windows.Forms.Padding(1);
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowTemplate.Height = 44;
@@ -113,7 +113,7 @@
             this.button1.Enabled = false;
             this.button1.Font = new System.Drawing.Font("微软雅黑", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button1.Location = new System.Drawing.Point(149, 227);
-            this.button1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.button1.Margin = new System.Windows.Forms.Padding(1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(398, 79);
             this.button1.TabIndex = 5;
@@ -125,7 +125,7 @@
             // 
             this.button2.Font = new System.Drawing.Font("微软雅黑", 42F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.button2.Location = new System.Drawing.Point(149, 324);
-            this.button2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.button2.Margin = new System.Windows.Forms.Padding(1);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(398, 76);
             this.button2.TabIndex = 6;
@@ -137,7 +137,7 @@
             // 
             this.txtCardNumber.Font = new System.Drawing.Font("宋体", 21.9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.txtCardNumber.Location = new System.Drawing.Point(251, 74);
-            this.txtCardNumber.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.txtCardNumber.Margin = new System.Windows.Forms.Padding(1);
             this.txtCardNumber.Name = "txtCardNumber";
             this.txtCardNumber.Size = new System.Drawing.Size(299, 41);
             this.txtCardNumber.TabIndex = 7;

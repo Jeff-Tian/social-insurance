@@ -27,20 +27,18 @@ namespace ReadYBCard
         private void btnReadCard_Click(object sender, EventArgs e)
         {
             try
+            {                    
+                RedCard(CardState.IC_Card);             
+            }
+            catch (Exception err)
             {
+                string s = err.ToString();
+                
                 string cardNumber = this.txtCardNumber.Text;
                 if (cardNumber != "")
                 {
                     QueryReport(cardNumber);
                 }
-                else
-                {
-                    RedCard(CardState.IC_Card);
-                }
-            }
-            catch (Exception err)
-            {
-                string s = err.ToString();
             }
         }
         public enum CardState
@@ -54,6 +52,7 @@ namespace ReadYBCard
             YBLib.CardInfo info = YBLib.GetCardInfo;
             //lblInfo.Text = "卡信息:" + info.CardInfoString();
             Console.WriteLine(info.CardInfoString());
+            this.txtCardNumber.Text = info.CardNo;
 
             QueryReport(info.CardNo);
             //QueryReport("K04185546");
@@ -168,6 +167,8 @@ namespace ReadYBCard
         {
             this.dgv.DataSource = new DataTable();
             this.button1.Enabled = false;
+
+            Application.Exit();
         }
     }
 }
