@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.btnReadCard = new System.Windows.Forms.Button();
             this.dgv = new System.Windows.Forms.DataGridView();
@@ -71,12 +71,12 @@
             this.BRXM,
             this.JYSJ});
             this.dgv.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.dgv.Location = new System.Drawing.Point(0, 176);
+            this.dgv.Location = new System.Drawing.Point(0, 467);
             this.dgv.Margin = new System.Windows.Forms.Padding(1);
             this.dgv.Name = "dgv";
             this.dgv.ReadOnly = true;
             this.dgv.RowTemplate.Height = 44;
-            this.dgv.Size = new System.Drawing.Size(692, 297);
+            this.dgv.Size = new System.Drawing.Size(973, 297);
             this.dgv.TabIndex = 3;
             this.dgv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellClick);
             this.dgv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_CellContentClick);
@@ -84,8 +84,8 @@
             // KH
             // 
             this.KH.DataPropertyName = "KH";
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.KH.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.KH.DefaultCellStyle = dataGridViewCellStyle1;
             this.KH.HeaderText = "卡号";
             this.KH.Name = "KH";
             this.KH.ReadOnly = true;
@@ -93,8 +93,8 @@
             // BRXM
             // 
             this.BRXM.DataPropertyName = "BRXM";
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.BRXM.DefaultCellStyle = dataGridViewCellStyle5;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.BRXM.DefaultCellStyle = dataGridViewCellStyle2;
             this.BRXM.HeaderText = "姓名";
             this.BRXM.Name = "BRXM";
             this.BRXM.ReadOnly = true;
@@ -102,8 +102,8 @@
             // JYSJ
             // 
             this.JYSJ.DataPropertyName = "JYSJ";
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.JYSJ.DefaultCellStyle = dataGridViewCellStyle6;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("微软雅黑", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.JYSJ.DefaultCellStyle = dataGridViewCellStyle3;
             this.JYSJ.HeaderText = "检查时间";
             this.JYSJ.Name = "JYSJ";
             this.JYSJ.ReadOnly = true;
@@ -156,7 +156,7 @@
             // axJLPrintECG1
             // 
             this.axJLPrintECG1.Enabled = true;
-            this.axJLPrintECG1.Location = new System.Drawing.Point(605, 13);
+            this.axJLPrintECG1.Location = new System.Drawing.Point(861, 714);
             this.axJLPrintECG1.Name = "axJLPrintECG1";
             this.axJLPrintECG1.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("axJLPrintECG1.OcxState")));
             this.axJLPrintECG1.Size = new System.Drawing.Size(100, 50);
@@ -166,14 +166,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 473);
-            this.Controls.Add(this.axJLPrintECG1);
+            this.ClientSize = new System.Drawing.Size(973, 764);
             this.Controls.Add(this.lblCardNumber);
             this.Controls.Add(this.txtCardNumber);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.btnReadCard);
+            this.Controls.Add(this.axJLPrintECG1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "报告打印";

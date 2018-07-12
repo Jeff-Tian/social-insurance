@@ -33,11 +33,15 @@ namespace ReadYBCard
             catch (Exception err)
             {
                 string s = err.ToString();
-                
+
                 string cardNumber = this.txtCardNumber.Text;
                 if (cardNumber != "")
                 {
                     QueryReport(cardNumber);
+                }
+                else
+                {
+                    MessageBox.Show(s);
                 }
             }
         }
@@ -62,6 +66,7 @@ namespace ReadYBCard
         {
             //SqlConnection conn = new SqlConnection("Data Source=192.168.0.247\\SQL2005;Initial Catalog=JLEISDB2;Persist Security Info=True;User ID=jlxdt;Password=jlxdt");
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
+            //MessageBox.Show(connectionString);
             
             SqlConnection conn = new SqlConnection(connectionString);
 
@@ -95,6 +100,7 @@ namespace ReadYBCard
                 conn.Close();
             }catch(Exception ex)
             {
+                MessageBox.Show(ex.ToString());
                 Console.WriteLine(ex.ToString());
             }
             finally
