@@ -1,12 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ReadYBCard
@@ -19,6 +13,7 @@ namespace ReadYBCard
         {
             InitializeComponent();
         }
+
         /// <summary>
         /// 读取医保卡信息
         /// </summary>
@@ -27,8 +22,8 @@ namespace ReadYBCard
         private void btnReadCard_Click(object sender, EventArgs e)
         {
             try
-            {                    
-                RedCard(CardState.IC_Card);             
+            {
+                ReadCard();
             }
             catch (Exception err)
             {
@@ -45,44 +40,36 @@ namespace ReadYBCard
                 }
             }
         }
-        public enum CardState
-        {
-            IC_Card,
-            Card
-        }
-        public void RedCard(CardState cardstate)
-        {
 
-            YBLib.CardInfo info = YBLib.GetCardInfo;
-            //lblInfo.Text = "卡信息:" + info.CardInfoString();
-            Console.WriteLine(info.CardInfoString());
-            this.txtCardNumber.Text = info.CardNo;
-
-            QueryReport(info.CardNo);
+        public void ReadCard()
+        {
+            QueryReport(GetCardNumber());
             //QueryReport("K04185546");
         }
 
         public void QueryReport(String cardNumber)
         {
             //SqlConnection conn = new SqlConnection("Data Source=192.168.0.247\\SQL2005;Initial Catalog=JLEISDB2;Persist Security Info=True;User ID=jlxdt;Password=jlxdt");
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
+            string connectionString =
+                System.Configuration.ConfigurationManager.ConnectionStrings["main"].ConnectionString;
             //MessageBox.Show(connectionString);
-            
+
             SqlConnection conn = new SqlConnection(connectionString);
 
             try
             {
                 conn.Open();
 
-                SqlCommand cmd = new SqlCommand("select * from JLEISDB2.dbo.v_report where KH = '" + cardNumber + "'", conn);
-                      
+                SqlCommand cmd = new SqlCommand("select * from JLEISDB2.dbo.v_report where KH = '" + cardNumber + "'",
+                    conn);
+
 
                 using (SqlDataAdapter da = new SqlDataAdapter(cmd))
                 {
                     dt = new DataTable();
                     da.Fill(dt);
 
-                    if(dt != null && dt.Rows.Count > 0)
+                    if (dt != null && dt.Rows.Count > 0)
                     {
                         dgv.AutoGenerateColumns = false;
                         dgv.DataSource = dt.AsDataView();
@@ -94,11 +81,11 @@ namespace ReadYBCard
                     {
                         button1.Enabled = false;
                     }
-
                 }
 
                 conn.Close();
-            }catch(Exception ex)
+            }
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.ToString());
                 Console.WriteLine(ex.ToString());
@@ -113,19 +100,26 @@ namespace ReadYBCard
         {
             string iniPath = System.Configuration.ConfigurationManager.AppSettings["iniPath"];
             iniPath = System.IO.Path.GetFullPath("./print.ini");
-                        
+
             int res = axJLPrintECG1.setPrintTemplateUrl(iniPath);
-            if(res != 0)
+            if (res != 0)
             {
-                MessageBox.Show("设置 ini 发生错误： " + res.ToString());
+                res = axJLPrintECG1.setPrintTemplateUrl(iniPath);
+
+                if (res != 0)
+                {
+                    res = axJLPrintECG1.setPrintTemplateUrl(iniPath);
+                    MessageBox.Show("设置 ini 发生错误： " + res.ToString());
+                }
             }
-            
+
 
             int returnValue = axJLPrintECG1.printEcgPaper(0);
 
             if (returnValue != 0)
             {
-                switch (returnValue) { 
+                switch (returnValue)
+                {
                     case 6008:
                         MessageBox.Show("打印发生其他错误，请稍后再试。");
                         break;
@@ -145,7 +139,7 @@ namespace ReadYBCard
             DataRow row = dt.Rows[e.RowIndex];
 
 
-            DateTime birthday = (DateTime)row["birthday"];
+            DateTime birthday = (DateTime) row["birthday"];
             DateTime now = DateTime.Now;
             TimeSpan diff = now.Subtract(birthday);
 
@@ -154,7 +148,8 @@ namespace ReadYBCard
             axJLPrintECG1.setComment(row["ZD"].ToString(), row["BGRXM"].ToString());
             axJLPrintECG1.setMeasureBinData(row["measuredata"]);
             axJLPrintECG1.setMeasureData(row["measuredata"].ToString());
-            axJLPrintECG1.setPatientInfo(row["KH"].ToString(), row["BRXM"].ToString(), row["BRXB"].ToString().Equals("1") ? "男" : "女", "", (int)(diff.Days / 365), "");
+            axJLPrintECG1.setPatientInfo(row["KH"].ToString(), row["BRXM"].ToString(),
+                row["BRXB"].ToString().Equals("1") ? "男" : "女", "", (int) (diff.Days / 365), "");
 
 
             //this.labelSelectedInfo.Text = "选中了第 " + (e.RowIndex + 1).ToString() + " 行。";
@@ -167,6 +162,7 @@ namespace ReadYBCard
             this.button2.Left = (this.Width - this.button2.Width) / 2;
             this.lblCardNumber.Left = this.btnReadCard.Left;
             this.txtCardNumber.Left = this.btnReadCard.Right - this.txtCardNumber.Width;
+            txtCardNumber.Focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -175,6 +171,32 @@ namespace ReadYBCard
             this.button1.Enabled = false;
 
             Application.Exit();
+        }
+
+        private void lblCardNumber_Click(object sender, EventArgs e)
+        {
+            GetCardNumber();
+        }
+
+        private string GetCardNumber()
+        {
+            YBLib.CardInfo info = YBLib.GetCardInfo;
+            txtCardNumber.Text = info.CardNo.Trim();
+
+            return txtCardNumber.Text;
+        }
+
+        private void Form1_Activated(object sender, EventArgs e)
+        {
+            txtCardNumber.Focus();
+        }
+
+        private void tmrReadCard_Tick(object sender, EventArgs e)
+        {
+            if (txtCardNumber.Text.Length == 0)
+            {
+                GetCardNumber();
+            }
         }
     }
 }

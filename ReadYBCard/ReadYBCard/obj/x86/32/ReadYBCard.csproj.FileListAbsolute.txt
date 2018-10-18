@@ -17,3 +17,5 @@ C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\ReadYBCard.exe.m
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\ReadYBCard.application
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\ReadYBCard.exe
 C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\ReadYBCard.pdb
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\ReadYBCard.csprojAssemblyReference.cache
+C:\Users\Jeff\social-insurance\ReadYBCard\ReadYBCard\obj\x86\32\Interop.JetES.dll
